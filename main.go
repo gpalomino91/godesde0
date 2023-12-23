@@ -1,9 +1,7 @@
 package main
 
 import (
-	"fmt"
-
-	"github.com/gpalomino91/godesde0/ejercicios"
+	"github.com/gpalomino91/godesde0/files"
 )
 
 func main() {
@@ -23,9 +21,22 @@ func main() {
 		fmt.Println("Esto es Darwin")
 	default:
 		fmt.Printf("%s \n", os)
-	}*/
+	}
 
 	numero, texto := ejercicios.ConvNumerico("500")
 	fmt.Println(numero)
 	fmt.Println(texto)
+
+	teclado.IngresoNumeros()
+
+	iteraciones.Iterar()
+
+	fmt.Println(ejercicios.IngreseNumero())*/
+
+	//files.GrabaTabla()
+
+	//files.SumaTabla()
+
+	files.LeoAechivo()
+
 }
